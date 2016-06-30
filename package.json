@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "sbolel/nocturnal-node",
   "license": "MIT",
-  "homepage": "https://sbolel.github.com/nocturnal-node",
+  "homepage": "http://nocturnalmedia.tv",
   "repository": {
     "type": "git",
     "url": "git@github.com:sbolel/nocturnal-node.git"
@@ -21,7 +21,8 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "debug": "nodemon server/index.js"
+    "debug": "nodemon server/index.js",
+    "build": "gulp build; gulp vendor; gulp bundle; gulp sass"
   },
   "dependencies": {
     "angular": "^1.5.7",

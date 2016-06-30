@@ -20,9 +20,10 @@ module.exports = {
   dist: scripts.dist,
   vendor: [
     './node_modules/angular/angular.js',
-    './node_modules/angular-sanitize/angular-sanitize.js',
+    './node_modules/angular-sanitize/angular-aria.js',
     './node_modules/angular-animate/angular-animate.js',
+    './node_modules/angular-sanitize/angular-sanitize.js',
     './node_modules/angular-ui-router/release/angular-ui-router.js',
-    './node_modules/angular-contentful/dist/angular-contentful.js',
+    // './node_modules/angular-contentful/dist/angular-contentful.js',
   ]
 }

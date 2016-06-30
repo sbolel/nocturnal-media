@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>express-angular-starter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Sinan Bolel <sinanbolel@gmail.com>">
-  <script src="dist/vendor.js"></script>
-  <script src="dist/express-angular-starter.js"></script>
-  <link rel="stylesheet" type="text/css" href="dist/main.css" media="screen">
-  <base href="/">
+<meta charset="utf-8">
+<title>Nocturnal Media</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="Nocturnal Media <info@nocturnalmedia.tv>">
+<meta name="description" content="NY-based production company - directing, producing, cinematography, editing, writing from 2 Northwestern alumni - Roland Smith &amp; Will Keese">
+<meta name="keywords" content="Nocturnal Media,Production,Directing,Writing,Cinematorgraphy,Video Editing,Movie,Video">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<meta name="robots" content="all">
+<meta property="og:image" content="http://nocturnalmedia.tv/img/nocturnal-media.jpg">
+<meta itemprop="image" content="http://nocturnalmedia.tv/img/nocturnal-media.jpg">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="360">
+<meta property="og:description" content="NY-based production company - directing, producing, cinematography, editing, writing from 2 Northwestern alumni - Roland Smith &amp; Will Keese">
+<meta property="og:title" content="Nocturnal Media">
+<meta itemprop="description" content="NY-based production company - directing, producing, cinematography, editing, writing from 2 Northwestern alumni - Roland Smith &amp; Will Keese">
+<meta itemprop="name" content="Nocturnal Media">
+<meta property="og:url" content="http://nocturnalmedia.tv/">
+<link href="favicon.png" rel="shortcut icon"/>
+<link href="favicon.png" rel="apple-itouch-icon"/>
+<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="vendor/fancybox/source/jquery.fancybox.css"/>
+<link rel="stylesheet" href="dist/main.css"/>
+<link rel="stylesheet" href="//cloud.typography.com/6310472/693286/css/fonts.css"/>
+<script src="dist/vendor.js"></script>
+<script src="src/app.js"></script>
+<script src="src/home/home.js"></script>
+<base href="/">
 </head>
 <body ng-app="starterApp">
-  <div ui-view="body"></div>
+  <div ui-view="header" id="header"></div>
+  <div ui-view="content" id="content-view"></div>
+  <footer ui-view="footer"></footer>
 </body>
 </html>
+
