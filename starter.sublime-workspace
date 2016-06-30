@@ -1,0 +1,1590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"throw",
+				"assert.throws"
+			],
+			[
+				"equal",
+				"assert.equal"
+			],
+			[
+				"logn",
+				"longitude"
+			],
+			[
+				"assert",
+				"assert.match"
+			],
+			[
+				"inval",
+				"invalidLocation"
+			],
+			[
+				"Location",
+				"locationConstructor"
+			],
+			[
+				"match",
+				"assert.match"
+			],
+			[
+				"loca",
+				"locationConstructor"
+			],
+			[
+				"isAT",
+				"assert.isAtMost"
+			],
+			[
+				"const",
+				"construct"
+			],
+			[
+				"locat",
+				"locationObject"
+			],
+			[
+				"req",
+				"requestParameters	parameter"
+			],
+			[
+				"captio",
+				"captionText"
+			],
+			[
+				"ava",
+				"availableWidth"
+			],
+			[
+				"new",
+				"newUrl"
+			],
+			[
+				"full",
+				"fullUrl"
+			],
+			[
+				"margin",
+				"margin-right: "
+			],
+			[
+				"back",
+				"background-repeat: "
+			],
+			[
+				"marg",
+				"margin-top: "
+			],
+			[
+				"mar",
+				"margin-left: "
+			],
+			[
+				"dyn",
+				"dynamicTemplateIds"
+			],
+			[
+				"err",
+				"errorThrown"
+			],
+			[
+				"jq",
+				"jqXHR"
+			],
+			[
+				"template",
+				"templateFields"
+			],
+			[
+				"tmepl",
+				"templateName"
+			],
+			[
+				"page",
+				"pageFields"
+			],
+			[
+				"og",
+				"og_image"
+			],
+			[
+				"DEFA",
+				"DEFAULT_OG_IMAGE"
+			],
+			[
+				"DEF",
+				"DEFAULT_OG_IMAGE"
+			],
+			[
+				"DE",
+				"DEFAULT_OG_IMAGE"
+			],
+			[
+				"pro",
+				"promoUuidField"
+			],
+			[
+				"promo",
+				"promoUuid"
+			],
+			[
+				"init",
+				"initPromoForm"
+			],
+			[
+				"res",
+				"resolveEntry"
+			],
+			[
+				"sub",
+				"submitPromoLead"
+			],
+			[
+				"author",
+				"authorId"
+			],
+			[
+				"pre",
+				"previousPage"
+			],
+			[
+				"next",
+				"nextPage"
+			],
+			[
+				"is",
+				"isCategory"
+			],
+			[
+				"isIn",
+				"isIndexOrCategory"
+			],
+			[
+				"query",
+				"queryObject"
+			],
+			[
+				"content",
+				"contentfulClient"
+			],
+			[
+				"Conte",
+				"ContentfulQuery"
+			],
+			[
+				"post",
+				"postsPerPage"
+			],
+			[
+				"posts",
+				"postsPerPage"
+			],
+			[
+				"current",
+				"current_page"
+			],
+			[
+				"curren",
+				"currentPage"
+			],
+			[
+				"previos",
+				"previous_page"
+			],
+			[
+				"blog",
+				"blogPopulator"
+			],
+			[
+				"cms",
+				"cmsPageIds"
+			],
+			[
+				"blo",
+				"blogPopulator"
+			],
+			[
+				"cs",
+				"cmsContentTypes"
+			],
+			[
+				"cmsC",
+				"cmsContentType"
+			],
+			[
+				"contetn",
+				"contentfulClient"
+			],
+			[
+				"cmsc",
+				"cmsContentId"
+			],
+			[
+				"cmsCo",
+				"cmsContentId"
+			],
+			[
+				"contet",
+				"contentTypeName"
+			],
+			[
+				"contentT",
+				"contentTypeName"
+			],
+			[
+				"cmsContent",
+				"cmsContentTypes"
+			],
+			[
+				"ha",
+				"handleView"
+			],
+			[
+				"hand",
+				"handleIndex"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "edit",
+		"selected_items":
+		[
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"project s",
+				"Project: Save As"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"browe pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"num",
+				"King: Number: Number Sequence"
+			],
+			[
+				"packages",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"insat",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"dec",
+				"King: Number: Decrease by 1"
+			],
+			[
+				"increas",
+				"King: Number: Increase by 1"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"browse pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instsa",
+				"InsertDate: Show Panel"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"set ty",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"number",
+				"King: Number: Number Sequence"
+			],
+			[
+				"set type",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"set syn type",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"set bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"edit p",
+				"Project: Edit Project"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"set babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"set jsx",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"editp",
+				"Project: Edit Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json pre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"set jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"edit pro",
+				"Project: Edit Project"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"",
+				"Duplicate Selections"
+			],
+			[
+				"linter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"setscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"set javasc",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"beaut",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"set sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"gulp",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"wordw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"set bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"set bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"view",
+				"View: Toggle Side Bar"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"hint",
+				"JSHint"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"errr",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"lint this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter ",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"sublime linter",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"blo",
+				"Toggle Block Comment"
+			],
+			[
+				"package",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"hide",
+				"Browse Mode: Right Sidebar"
+			],
+			[
+				"brows",
+				"Browse Mode..."
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"set jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"set shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"du",
+				"Duplicate Selections"
+			],
+			[
+				"dupl",
+				"Duplicate Selections"
+			],
+			[
+				"folder",
+				"Project: Refresh Folders"
+			],
+			[
+				"snip",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"\\",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sinanbolel/dev/sbolel/starter",
+		"/Users/sinanbolel/dev/sbolel/starter/app",
+		"/Users/sinanbolel/dev/sbolel/starter/server",
+		"/Users/sinanbolel/dev/sbolel/starter/views"
+	],
+	"file_history":
+	[
+		"/Users/sinanbolel/dev/sbolel/starter/views/index.html",
+		"/Users/sinanbolel/dev/sbolel/starter/app/spec.js",
+		"/Users/sinanbolel/dev/sbolel/starter/README.md",
+		"/Users/sinanbolel/dev/sbolel/starter/package.json",
+		"/Users/sinanbolel/dev/sbolel/starter/templates/index.html",
+		"/Users/sinanbolel/dev/sbolel/starter/.bin/test",
+		"/Users/sinanbolel/dev/sbolel/starter/server/bin",
+		"/Users/sinanbolel/dev/sbolel/starter/.serverrc",
+		"/Users/sinanbolel/dev/sbolel/starter/.env_sample",
+		"/Users/sinanbolel/dev/sbolel/starter/starter.sublime-project",
+		"/Users/sinanbolel/dev/sbolel/starter/app/styles.scss",
+		"/Users/sinanbolel/dev/sbolel/starter/app/app.spec.js",
+		"/Users/sinanbolel/dev/sbolel/starter/.gitignore",
+		"/Users/sinanbolel/dev/sbolel/starter/LICENSE",
+		"/Users/sinanbolel/dev/sbolel/starter/server/index.js",
+		"/Users/sinanbolel/dev/sbolel/starter/server/spec.js",
+		"/Users/sinanbolel/dev/sbolel/starter/server/server",
+		"/Users/sinanbolel/dev/sbolel/starter/app/index.html",
+		"/Users/sinanbolel/dev/sbolel/starter/app/index.scss",
+		"/Users/sinanbolel/dev/sbolel/starter/app/index.js",
+		"/Users/sinanbolel/dev/sbolel/starter/index",
+		"/Users/sinanbolel/dev/sbolel/starter/viewer/test.js",
+		"/Users/sinanbolel/dev/sbolel/starter/viewer/index.js",
+		"/Users/sinanbolel/dev/sbolel/starter/viewer/index.html",
+		"/Users/sinanbolel/dev/sbolel/starter/server/package.json",
+		"/Users/sinanbolel/dev/sbolel/starter/viewer/package.json",
+		"/Users/sinanbolel/dev/sbolel/starter/bin/index",
+		"/Users/sinanbolel/dev/billboarder/billboarder-firebase/.babelrc",
+		"/Users/sinanbolel/dev/billboarder/billboarder-firebase/.gitignore",
+		"/Users/sinanbolel/dev/billboarder/billboarder-frontend/dist/styles/vendor.css",
+		"/Users/sinanbolel/dev/billboarder/billboarder-frontend/.yo-rc.json",
+		"/Users/sinanbolel/dev/billboarder/billboarder-frontend/.tmp/index.html",
+		"/Users/sinanbolel/dev/billboarder/billboarder-frontend/Gruntfile.js",
+		"/Users/sinanbolel/dev/billboarder/billboarder-frontend/package.json",
+		"/Users/sinanbolel/Library/Application Support/Sublime Text 3/Packages/sublime-chai-full-completions/coffee/completions/assert-chai-coffee.sublime-completions",
+		"/Users/sinanbolel/Library/Application Support/Sublime Text 3/Packages/sublime-chai-full-completions/js/completions/assert-chai-js.sublime-completions",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/test/unit/index.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/test/unit/location.spec.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/data/location.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/test/index.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/build/src/data/location.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/package.json",
+		"/Users/sinanbolel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/components/location/location.spec.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/data/user.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/api/user.api.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/components/user/user.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/components/user/user.api.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/routes/index.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/test/integration/ping.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/.gitignore",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/build/data/location.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/api/user.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/data/store.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/components/user/user.model.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/components/location/location.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/test/unit/unit-tests.html",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/os@0.1.1.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/typescript@1.8.10/lib/typescriptServices.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/os-browserify@0.1.2/main.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/typescript@1.8.10/lib/typescript.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/typescript@1.8.10.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/typescript@1.8.10/lib/tsc.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/node_modules/typescript/lib/typescript.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/github/frankwallis/plugin-typescript@4.0.16.js",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/.dependencies.json",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/tsconfig.json",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/typings.json",
+		"/Users/sinanbolel/dev/bnc/bnc-it-project/testing.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/data/sessionToken.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/data/userSession.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-project/README.md",
+		"/Users/sinanbolel/dev/projects/bnc.sublime-project",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/data/db/cloudmine.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/utils/validations.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/src/api/store.ts",
+		"/Users/sinanbolel/dev/bnc/bnc-it-api/node_modules/colors/ReadMe.md",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/controllers/vendor_controller.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/routes/index.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/config/cms_config.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/blog/posts/post.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/webpack/webpack.dev.config.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/.env",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/components/pano.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/middleware/blog_populator.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/controllers/promos_controller.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/landing_entry.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/landing/defaultTemplate/defaultTemplate.jsx",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/landing/secondTemplate/secondTemplate.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/shared/forms/promo/_mixins.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/shared/forms/promo/promo_lead.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/landing/defaultTemplate/defaultTemplate.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/config/static_promo_pages.js",
+		"/Users/sinanbolel/dev/projects/wework-com-node.sublime-project",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/config/cms_page_ids.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/css/blog.scss",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/components/language_dropdown.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/blog_entry.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/Gulpfile.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/blog/posts/post.jsx",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/vendor/panolens.min.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/vendor/three-js/index.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/vendor/panolens.js/build/panolens.min.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/vendor/panolens.js/build/panolens.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/application_entry.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/public/assets/js/vendor/panolens.js/build/panolens.min.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/node_modules/pano/pano.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/pages/legal/legal.jsx",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/blog/blog.jsx",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/node_modules/three-js/three.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/package.json",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/css/landing.scss",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/building-desktop_entry.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/locations/building/building.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/shared/navbar/navbar.jsx",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/css/market.scss",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/middleware/vary_header.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/server/config/promo_pages.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/webpack/webpack.config.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/careers_entry.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/webpack/webpack.prod.config.js",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/pages/careers/careers.jsx",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/pages/careers/careers.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/blog/includes/_careers.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views/shared/forms/_tour-tpls.jade",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app.json",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/doc/promo-page-generator/default_template_schema.json",
+		"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets/js/components/forms/form_base.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/sinanbolel/dev/bnc/bnc-it-api/",
+			"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages",
+			"/Users/sinanbolel/dev/bnc/bnc-it-api/jspm_packages/npm/typescript@1.8.10",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/server",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/app/assets",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/assets",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/app",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/app",
+			"/Users/sinanbolel/dev/weconnect/wework-com-node/app/views",
+			"/Users/sinanbolel/Google Drive/dev/weconnect/wework-com-node/app/views",
+			"/Users/sinanbolel/Google Drive/dev/weconnect/wework-com-node/server",
+			"/Users/sinanbolel/Google Drive/dev/weconnect/wework-com-node",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-node-v0.2/server",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-node-v0.2",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-node-v0.2/server",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-node-v0.2/app/views",
+			"<open folders>",
+			"/Users/sinanbolel/Dev/thinkcrazy/wework-com-node-tc/,",
+			"/Users/sinanbolel/Dev/thinkcrazy/wework-com-node-tc/",
+			"/Users/sinanbolel/Dev/thinkcrazy/wework-com-node-tc/app",
+			"/Users/sinanbolel/Dev/thinkcrazy/wework-com-node-tc/server",
+			"/Users/sinanbolel/Dev/thinkcrazy/wework-com-node-tc/",
+			"/Users/sinanbolel/Dev/thinkcrazy/wework-com-node-tc/server",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-static/",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-static/assets",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-static/views/blog",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-node",
+			"/Users/sinanbolel/Dev/weconnect/wework-com-static"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"SB Starter",
+			"crazy",
+			"Crazy",
+			"starter",
+			"Starter",
+			"min",
+			"pano",
+			"bin",
+			"server/bin",
+			"pano",
+			"bitbucket",
+			"usemin",
+			"ngtemplates",
+			"usemin",
+			"yeoman",
+			"yeoman.",
+			"<%= yeoman.app %>",
+			"yeoman",
+			"usemin",
+			"cssmin",
+			"generated",
+			"cssmin",
+			"cssmin:generated",
+			"cssmin",
+			"toJSON().",
+			"passed to",
+			"lat",
+			"zip",
+			"lat",
+			"\" property');",
+			"property",
+			"object returned by ",
+			"toJSON() returns an object with",
+			"return ",
+			"lat",
+			"location.toJSON",
+			"validate",
+			"toJSON",
+			"from",
+			"that",
+			"long",
+			"Location(",
+			", ",
+			"_",
+			"    });",
+			"it(",
+			"it",
+			"});\n",
+			";\n\n",
+			"long",
+			"90.1",
+			" 1, ",
+			"1,",
+			"lat",
+			"console",
+			"Location ",
+			"{Location}",
+			"location with ",
+			", ",
+			"_",
+			", ",
+			"arguments",
+			"['street']",
+			"let ",
+			"1",
+			"location",
+			"valid.",
+			", ",
+			"errors",
+			", ",
+			"invalidLocation",
+			", ",
+			"function",
+			"    it('",
+			"{Location} ",
+			"location",
+			"zip",
+			"});",
+			"    // ",
+			"        done();",
+			"it('should have a valid ",
+			"Location",
+			", ",
+			"new Location",
+			": ",
+			"lat",
+			", ",
+			"location",
+			"=> {",
+			"const location = new Location(lat, long, city, state, street, zip);",
+			"data.",
+			"testLocationConstructor",
+			"sampleLocationConstructor",
+			"locationFactory",
+			"locationConstructor",
+			"new locationConstructor",
+			"Location",
+			"\"",
+			", ,",
+			"street[0]",
+			"state",
+			"city",
+			"lat",
+			"longitude",
+			"latitude",
+			"90",
+			"location",
+			"this.",
+			"this",
+			"location ",
+			");",
+			"''",
+			"string",
+			"conf",
+			"construct",
+			", ",
+			"locationObject",
+			"../",
+			" = ",
+			"lat = ",
+			"location",
+			"Connection",
+			"SessionToken",
+			"location",
+			"Location",
+			"require\\(.os.\\)",
+			"os",
+			"require('os')"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"../lib/contentful_client",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "starter.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"gru",
+				"Gruntfile.js"
+			],
+			[
+				"pack",
+				"bnc-it-api/package.json"
+			],
+			[
+				"location.ts",
+				"bnc-it-api/src/components/location/location.ts"
+			],
+			[
+				"locat",
+				"bnc-it-api/build/data/location.js"
+			],
+			[
+				"locationmode",
+				"bnc-it-api/src/data/location.model.js"
+			],
+			[
+				"readme",
+				"bnc-it-api/node_modules/colors/ReadMe.md"
+			],
+			[
+				"index",
+				"server/routes/index.js"
+			],
+			[
+				"vendor",
+				"server/controllers/vendor_controller.js"
+			],
+			[
+				"vendortcs",
+				"server/controllers/vendor_controller.js"
+			],
+			[
+				".env",
+				"webpack/webpack.dev.config.js"
+			],
+			[
+				"post.",
+				"app/views/blog/posts/post.jade"
+			],
+			[
+				"routesin",
+				"server/routes/index.js"
+			],
+			[
+				"blog.scs",
+				"app/assets/css/blog.scss"
+			],
+			[
+				"gulp",
+				"Gulpfile.js"
+			],
+			[
+				"blog.s",
+				"app/assets/css/blog.scss"
+			],
+			[
+				".jsx",
+				"app/views/pages/legal/legal.jsx"
+			],
+			[
+				"blog.sc",
+				"app/assets/css/blog.scss"
+			],
+			[
+				"three",
+				"node_modules/three-js/three.js"
+			],
+			[
+				"blog.jsx",
+				"app/views/blog/blog.jsx"
+			],
+			[
+				"default",
+				"app/views/landing/defaultTemplate/defaultTemplate.jade"
+			],
+			[
+				"header",
+				"server/middleware/vary_header.js"
+			],
+			[
+				"gul",
+				"Gulpfile.js"
+			],
+			[
+				"careers",
+				"app/assets/js/careers_entry.js"
+			],
+			[
+				"landing.scs",
+				"app/assets/css/landing.scss"
+			],
+			[
+				"routes/",
+				"server/routes/index.js"
+			],
+			[
+				"formbase",
+				"app/assets/js/components/forms/form_base.js"
+			],
+			[
+				"routes",
+				"server/routes/index.js"
+			],
+			[
+				"land",
+				"server/middleware/landing_populator.js"
+			],
+			[
+				"views/formpro",
+				"app/views/shared/forms/promo/promo_lead.jade"
+			],
+			[
+				"app.",
+				"app.json"
+			],
+			[
+				"becomea",
+				"app/views/shared/forms/become_a_member.jade"
+			],
+			[
+				"applicatioent",
+				"app/assets/js/application_entry.js"
+			],
+			[
+				"landingp",
+				"server/middleware/landing_populator.js"
+			],
+			[
+				"utils",
+				"server/lib/utils.js"
+			],
+			[
+				"cmsconf",
+				"server/config/cms_config.js"
+			],
+			[
+				"lan",
+				"server/middleware/landing_populator.js"
+			],
+			[
+				"hidee",
+				"app/views/shared/forms/promo/_promo_hidden_fields.jade"
+			],
+			[
+				"promohid",
+				"app/views/shared/forms/promo/_promo_hidden_fields.jade"
+			],
+			[
+				"promo_lead",
+				"app/views/shared/forms/promo/promo_lead.jade"
+			],
+			[
+				"landing",
+				"app/assets/css/landing.scss"
+			],
+			[
+				"form",
+				"app/assets/js/components/forms/form_base.js"
+			],
+			[
+				"defaultd",
+				"app/views/landing/defaultTemplate/defaultTemplate.jade"
+			],
+			[
+				"webp",
+				"webpack/webpack.config.js"
+			],
+			[
+				"server.",
+				"server/server.js"
+			],
+			[
+				"hidden",
+				"app/views/shared/forms/_hidden_fields.jade"
+			],
+			[
+				"blogpo",
+				"server/middleware/blog_populator.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"blogop",
+				"server/middleware/blog_populator.js"
+			],
+			[
+				"postcard",
+				"app/views/blog/includes/_post-card.jade"
+			],
+			[
+				"blogindex",
+				"app/views/blog/index.jade"
+			],
+			[
+				"blogp",
+				"server/middleware/blog_populator.js"
+			],
+			[
+				"categor",
+				"app/views/blog/includes/_category-subnav.jade"
+			],
+			[
+				"blog_po",
+				"server/middleware/blog_populator.js"
+			],
+			[
+				"post.j",
+				"app/views/blog/posts/post.jade"
+			],
+			[
+				"blog.jade",
+				"app/views/blog/index.jade"
+			],
+			[
+				"blog.scss",
+				"app/assets/css/blog.scss"
+			],
+			[
+				"author.",
+				"app/views/blog/author/author.jade"
+			],
+			[
+				"sever",
+				"server/server.js"
+			],
+			[
+				"category",
+				"app/views/blog/includes/_category-subnav.jade"
+			],
+			[
+				"blogco",
+				"server/controllers/blog_controller.js"
+			],
+			[
+				"server",
+				"server/server.js"
+			],
+			[
+				"post",
+				"app/views/blog/posts/post.jade"
+			],
+			[
+				"card",
+				"app/views/blog/includes/_post-card.jade"
+			],
+			[
+				"indexjade",
+				"app/views/blog/index.jade"
+			],
+			[
+				"uti",
+				"server/lib/utils.js"
+			],
+			[
+				"conten",
+				"doc/Contentful-JS-v3.3.5.md"
+			],
+			[
+				"contentt",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"content",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"cmscon",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"cmsco",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"blogjade",
+				"app/views/blog/index.jade"
+			],
+			[
+				"config",
+				"server/config/index.js"
+			],
+			[
+				"gu",
+				"Gulpfile.js"
+			],
+			[
+				"env",
+				"doc/Contentful-JS-v3.3.5.md"
+			],
+			[
+				"cms",
+				"server/middleware/cms_populator.js"
+			],
+			[
+				"blog",
+				"server/middleware/blog_populator.js"
+			],
+			[
+				"rewr",
+				"server/routes/rewrites_and_redirects.js"
+			],
+			[
+				"blogc",
+				"server/controllers/blog_controller.js"
+			],
+			[
+				"client",
+				"server/middleware/contentful_client.js"
+			],
+			[
+				"doc/",
+				"doc/Contentful-JS-v3.3.5.md"
+			],
+			[
+				"pages",
+				"server/controllers/pages_controller.js"
+			],
+			[
+				"templ",
+				"server/middleware/template_resolver.js"
+			],
+			[
+				"pop",
+				"server/middleware/cms_populator.js"
+			],
+			[
+				"contro",
+				"server/controllers/locations_controller.js"
+			],
+			[
+				"serve",
+				"server/server.js"
+			],
+			[
+				"app",
+				"app.json"
+			],
+			[
+				"router",
+				"server/routes/blog_router.js"
+			],
+			[
+				"erv",
+				"server/server.js"
+			],
+			[
+				"contrl",
+				"server/controllers/blog_controller.js"
+			],
+			[
+				"pageid",
+				"server/config/cms_page_ids.js"
+			],
+			[
+				"cmspa",
+				"server/config/cms_page_ids.js"
+			],
+			[
+				"jade",
+				"app/views/blog/category/category.jade"
+			],
+			[
+				"rewrite",
+				"server/routes/rewrites_and_redirects.js"
+			],
+			[
+				"catego",
+				"app/views/blog/category/category.jade"
+			],
+			[
+				"error",
+				"server/lib/error_handler.js"
+			],
+			[
+				"inde",
+				"server/routes/index.js"
+			],
+			[
+				"logger",
+				"server/lib/logger.js"
+			],
+			[
+				"util",
+				"server/lib/utils.js"
+			],
+			[
+				"contentfu",
+				"server/middleware/contentful_client.js"
+			],
+			[
+				"contr",
+				"server/controllers/blog_controller.js"
+			],
+			[
+				"web",
+				"webpack/webpack.dev.config.js"
+			],
+			[
+				"webpac",
+				"webpack/webpack.config.js"
+			],
+			[
+				"blogscss",
+				"app/assets/css/blog.scss"
+			],
+			[
+				"blogscc",
+				"app/views/blog/includes/_post-card.jade"
+			],
+			[
+				"_post",
+				"app/views/blog/includes/_post-card.jade"
+			],
+			[
+				"indejade",
+				"app/views/blog/index.jade"
+			],
+			[
+				"routesi",
+				"server/routes/index.js"
+			],
+			[
+				"",
+				"app/views/blog/index.jade"
+			],
+			[
+				"blogentr",
+				"app/assets/js/blog_entry.js"
+			],
+			[
+				"blogent",
+				"app/assets/js/blog_entry.js"
+			],
+			[
+				"routesij",
+				"server/routes/index.js"
+			],
+			[
+				"blor",
+				"server/controllers/blog_controller.js"
+			],
+			[
+				"prox",
+				"server/routes/reverse_proxy.js"
+			],
+			[
+				"webpa",
+				"webpack/webpack.config.js"
+			],
+			[
+				"rewri",
+				"server/routes/rewrites_and_redirects.js"
+			],
+			[
+				"conter",
+				"server/controllers/blog_controller.js"
+			],
+			[
+				"contentty",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"cmspage",
+				"server/config/cms_page_ids.js"
+			],
+			[
+				"cmsp",
+				"server/middleware/cms_populator.js"
+			],
+			[
+				"cmscontet",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"contentf",
+				"server/middleware/contentful_client.js"
+			],
+			[
+				"template",
+				"server/middleware/template_resolver.js"
+			],
+			[
+				"content_t",
+				"server/config/cms_content_types.js"
+			],
+			[
+				"controller",
+				"wework-com-node/server/controllers/blog_controller.js"
+			],
+			[
+				"reade",
+				"wework-com-node/README.md"
+			],
+			[
+				"pagesco",
+				"wework-com-node/server/controllers/pages_controller.js"
+			],
+			[
+				"cmspop",
+				"wework-com-node/server/middleware/cms_populator.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
