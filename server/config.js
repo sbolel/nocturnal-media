@@ -15,16 +15,14 @@ if (nodeEnv === 'development') {
   config.log.consoleLevel = 'error'
   config.log.logentriesLevel = 'error'
 } else {
-  console.error("NODE_ENV set to invalid value. Exiting.")
+  console.error('NODE_ENV set to invalid value. Exiting.')
   process.exit(1)
 }
 
 config.contentful = {
-  cms: {
-    host: process.env.contentful_host,
-    space: process.env.contentful_space,
-    accessToken: process.env.contentful_token,
-  },
+  host: process.env.contentful_host,
+  space: process.env.contentful_space,
+  accessToken: process.env.contentful_token
 }
 
 module.exports = config

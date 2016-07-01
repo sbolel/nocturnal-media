@@ -22,7 +22,8 @@
   "scripts": {
     "start": "node server/index.js",
     "debug": "nodemon server/index.js",
-    "build": "gulp build; gulp vendor; gulp bundle; gulp sass"
+    "build": "gulp build; gulp vendor; gulp bundle; gulp sass",
+    "test": "standard"
   },
   "dependencies": {
     "angular": "^1.5.7",
@@ -70,5 +71,11 @@
     "standard": "^7.1.2",
     "webpack": "^1.13.1"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "standard": {
+    "ignore": [
+      "app",
+      "node_modules"
+    ]
+  }
 }
