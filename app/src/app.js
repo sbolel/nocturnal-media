@@ -59,8 +59,6 @@ window.angular.module('starterApp', [
         subtitle: ''
       }
     })
-  $locationProvider.html5Mode(true)
-  $locationProvider.hashPrefix('!')
   $urlRouterProvider.otherwise('/')
 })
 

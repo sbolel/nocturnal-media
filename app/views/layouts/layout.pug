@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    include ./head
+    script window.__PAGE_DATA_ = !{JSON.stringify(data)}
+
+  body(ng-app='starterApp')
+    #header(ui-view='header')
+    block content
+    footer(ui-view='footer')
