@@ -1,5 +1,5 @@
-angular.module('starterApp')
+window.angular.module('starterApp')
 
-.controller('HomeController', function($scope) {
+.controller('HomeController', function ($scope) {
 
 })
