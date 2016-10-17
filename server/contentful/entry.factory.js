@@ -1,7 +1,4 @@
-'use strict'
-
 const client = require('./client')
-const log = require('../logger')
 
 class ContentfulEntry {
   constructor (id, contentType, include, limit) {
@@ -14,24 +11,18 @@ class ContentfulEntry {
       }
     }
     this._query = {
-      content_type: contentType,
-      include: 10,
-      limit: 1,
-      'sys.id': id
+      content_type: this._sys.contentType.sys.id,
+      include: include || 10,
+      limit: 1 || limit,
+      'sys.id': this._sys.id
     }
-    this._loaded = client.getEntries(this._query)
-      .then((entries) => {
-        log.info(' ===> Loaded entries.')
-      })
-      .catch((err) => log.error(err))
   }
   get query () {
     return this._query
   }
-  loaded () {
-    return this._loaded
+  get () {
+    return client.getEntries(this._query)
   }
-
 }
 
 module.exports = ContentfulEntry

@@ -1,9 +1,7 @@
-'use strict'
-
-const ContentfulEntry = require('./entry.factory');
+const ContentfulEntry = require('./entry.factory')
 
 class PortfolioSection {
-  constructor(id) {
+  constructor (id) {
     this._promise = new ContentfulEntry(id, 'portfolio')
   }
   get promise () {
@@ -11,4 +9,4 @@ class PortfolioSection {
   }
 }
 
-module.exports = PortfolioSection;
+module.exports = PortfolioSection

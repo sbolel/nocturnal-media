@@ -1,5 +1,3 @@
-'use strict'
-
 const winston = require('winston')
 const config = require('../config')
 
@@ -41,20 +39,6 @@ winston.handleExceptions(
     timestamp: true
   })
 )
-
-if (process.env.LOGENTRIES_TOKEN) {
-  winston.add(winston.transports.Logentries, {
-    token: process.env.LOGENTRIES_TOKEN,
-    level: config.log.logentriesLevel,
-    json: true
-  })
-  winston.handleExceptions(
-    new winston.transports.Logentries({
-      token: process.env.LOGENTRIES_TOKEN,
-      json: true
-    })
-  )
-}
 
 winston.exitOnError = false
 
