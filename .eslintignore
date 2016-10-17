@@ -1,0 +1,4 @@
+**/*{.,-}min.js
+app/dist/**/*
+coverage/**/*
+node_modules
