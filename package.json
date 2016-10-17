@@ -16,8 +16,8 @@
   "contributors": [],
   "main": "server/index.js",
   "engines": {
-    "node": "~6.2.2",
-    "npm": "~3.10.3"
+    "node": "~6.8.1",
+    "npm": "~3.10.8"
   },
   "scripts": {
     "start": "node server/index.js",
