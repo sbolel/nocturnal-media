@@ -19,6 +19,7 @@
     "node": "~6.8.1",
     "npm": "~3.10.8"
   },
+  "private": true,
   "scripts": {
     "build": "gulp build; gulp vendor; gulp bundle; gulp sass",
     "debug": "nodemon server/index.js",
