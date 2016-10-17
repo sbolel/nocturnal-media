@@ -1,5 +1,3 @@
-'use strict'
-
 const banner = require('gulp-banner')
 const compass = require('gulp-compass')
 const concat = require('gulp-concat')
@@ -9,19 +7,17 @@ const ngAnnotate = require('gulp-ng-annotate')
 const opn = require('opn')
 const path = require('path')
 const rename = require('gulp-rename')
-const uglify = require('gulp-uglify')
-// const watch = require('gulp-watch')
-const webserver = require('gulp-webserver')
 const stripDebug = require('gulp-strip-debug')
+const uglify = require('gulp-uglify')
+const webserver = require('gulp-webserver')
 
 const pkg = require('./package.json')
 const appScripts = require('./index').app
-// const distScripts = require('./index').dist
 const vendorScripts = require('./index').vendor
 
 const serverConfig = {
   host: 'localhost',
-  port: '4000' || process.env.PORT
+  port: process.env.PORT || '4000'
 }
 
 const appComment = '/*\n' +

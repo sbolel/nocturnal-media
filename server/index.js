@@ -26,8 +26,9 @@ app.locals = {
 }
 
 // static assets
-app.use('/fonts', express.static(path.resolve(__dirname, '../app/assets/fonts')))
-app.use('/img', express.static(path.resolve(__dirname, '../app/assets/img')))
+app.use('/assets/fonts', express.static(path.resolve(__dirname, '../app/assets/fonts')))
+app.use('/assets/img', express.static(path.resolve(__dirname, '../app/assets/img')))
+app.use('/dist', express.static(path.resolve(__dirname, '../app/dist')))
 
 // use api
 app.use(api)

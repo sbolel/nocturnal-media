@@ -1,5 +1,3 @@
-'use strict'
-
 const api = require('express').Router() // eslint-disable-line new-cap
 const Renderer = require('./renderer')
 
