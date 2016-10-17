@@ -12,7 +12,7 @@ window.angular.module('starterApp', [
       url: '',
       abstract: true,
       views: {
-        '@header': {
+        'header@': {
           templateUrl: 'src/layout/header.html'
         },
         'content@': {
