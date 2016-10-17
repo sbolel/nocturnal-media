@@ -29,6 +29,7 @@ app.locals = {
 app.use('/fonts', express.static(path.resolve(__dirname, '../app/assets/fonts')))
 app.use('/assets/img', express.static(path.resolve(__dirname, '../app/assets/img')))
 app.use('/dist', express.static(path.resolve(__dirname, '../app/dist')))
+app.use('/favicon.ico', express.static(path.resolve(__dirname, '../app/assets/img/favicon.ico')))
 
 // use api
 app.use(api)
