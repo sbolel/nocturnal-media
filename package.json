@@ -1,6 +1,6 @@
 {
   "name": "nocturnal-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "sbolel/nocturnal-node",
   "license": "MIT",
   "homepage": "http://nocturnalmedia.tv",
@@ -20,12 +20,12 @@
     "npm": "~3.10.8"
   },
   "scripts": {
-    "start": "node server/index.js",
-    "debug": "nodemon server/index.js",
     "build": "gulp build; gulp vendor; gulp bundle; gulp sass",
+    "debug": "nodemon server/index.js",
     "lint:js": "./node_modules/.bin/eslint -c .eslintrc.yml ./**/*.js --ignore-path .eslintignore",
     "lint:standard": "./node_modules/.bin/standard",
     "pretest": "./node_modules/.bin/npm-run-all lint:standard lint:js",
+    "start": "node server/index.js",
     "test": "./node_modules/.bin/cross-env NODE_ENV=test ./node_modules/.bin/npm-run-all test:cover test:report",
     "test:cover": "./node_modules/.bin/istanbul cover node_modules/.bin/_mocha -R test/**/*",
     "test:report": "./node_modules/.bin/istanbul report --config .istanbul.yml --root coverage/"
