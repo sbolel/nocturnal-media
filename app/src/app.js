@@ -284,5 +284,5 @@ window.angular.module('starterApp', [
     }
   }
 
-  // $document.find('#slideshow').backstretch($scope.data.slideshow.images, { duration: 3000, fade: 750 })
+  $document.find('#slideshow').backstretch($scope.data.slideshow.images, { duration: 3000, fade: 750 })
 })
