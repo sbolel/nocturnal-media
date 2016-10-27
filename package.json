@@ -16,7 +16,7 @@
   "contributors": [],
   "main": "server/index.js",
   "engines": {
-    "node": "~6.8.1",
+    "node": "~6.9.0",
     "npm": "~3.10.8"
   },
   "private": true,
