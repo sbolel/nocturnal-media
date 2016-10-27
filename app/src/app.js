@@ -1,4 +1,4 @@
-angular.module('starterApp', [
+window.angular.module('starterApp', [
   'ngAnimate',
   'ui.router',
   'ngSanitize'
@@ -268,7 +268,7 @@ angular.module('starterApp', [
       window.open('http://player.vimeo.com/video/' + id)
     } else {
       // e.preventDefault()
-      $.fancybox({
+      window.$.fancybox({
         'padding': 0,
         'autoScale': false,
         'transitionIn': 'elastic',
@@ -286,4 +286,3 @@ angular.module('starterApp', [
 
   // $document.find('#slideshow').backstretch($scope.data.slideshow.images, { duration: 3000, fade: 750 })
 })
-
