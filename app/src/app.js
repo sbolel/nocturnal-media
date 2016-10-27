@@ -62,6 +62,7 @@ window.angular.module('starterApp', [
 
 .run(function ($rootScope, $window) {
   $rootScope.PAGE_DATA = Object.assign({}, $window.__PAGE_DATA__)
+  console.debug($rootScope.PAGE_DATA)
   $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
     $rootScope.currentState = toState
   })
@@ -82,22 +83,7 @@ window.angular.module('starterApp', [
   $scope.data = {
     slideshow: {
       index: 0,
-      images: [
-        'assets/img/slideshow/2.png',
-        'assets/img/slideshow/3.png',
-        'assets/img/slideshow/5.png',
-        'assets/img/slideshow/6.png',
-        'assets/img/slideshow/7.png',
-        'assets/img/slideshow/8.png',
-        'assets/img/slideshow/10.png',
-        'assets/img/slideshow/11.png',
-        'assets/img/slideshow/12.png',
-        'assets/img/slideshow/13.png',
-        'assets/img/slideshow/16.png',
-        'assets/img/slideshow/20.png',
-        'assets/img/slideshow/21.png',
-        'assets/img/slideshow/22.png'
-      ]
+      images: $rootScope.PAGE_DATA.slideshow
     },
     home: {
       1: {

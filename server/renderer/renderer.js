@@ -8,9 +8,7 @@ function Renderer (templatePath) {
     const resolvePug = new Resolver(path.join(process.cwd(), templatePath))
     return resolvePug().then(resolvedPath => {
       try {
-        const jadeLocals = locals
-        log.debug(locals)
-        const html = pug.renderFile(resolvedPath, jadeLocals)
+        const html = pug.renderFile(resolvedPath, locals)
         log.info(` ====> Rendering HTML for ${templatePath}...`)
         return resolve(html)
       } catch (err) {
