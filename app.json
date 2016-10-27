@@ -1,0 +1,8 @@
+{
+  "name": "nocturnal-media",
+  "description": "nocturnalmedia.tv",
+  "repository": "https://github.com/sbolel/nocturnal-media",
+  "logo": "http://nocturnalmedia.tv/assets/img/favicon.png",
+  "keywords": ["Nocturnal Media"],
+  "image": "heroku/nodejs"
+}
