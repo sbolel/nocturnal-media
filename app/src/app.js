@@ -60,23 +60,24 @@ window.angular.module('starterApp', [
   $urlRouterProvider.otherwise('/')
 })
 
-.run(function ($rootScope) {
+.run(function ($rootScope, $window) {
+  $rootScope.PAGE_DATA = Object.assign({}, $window.__PAGE_DATA__)
   $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
     $rootScope.currentState = toState
   })
-  if (typeof $rootScope.userQuery === 'undefined') {
-    $rootScope.userQuery = {}
-  }
+  if (typeof $rootScope.userQuery === 'undefined') $rootScope.userQuery = {}
 })
 
 .controller('AppController', function ($rootScope, $scope, $document) {
-  var ngClasses = {
+  const ngClasses = {
     saturation: '{"saturate": img.hover, "desaturate":  !img.hover}',
     exposure: '{"": img.hover, "darken": !img.hover}'
   }
+
   $rootScope.$watch('currentState', function (newValue, oldValue) {
     $scope.state = newValue
   })
+
   $scope.data = {}
   $scope.data = {
     slideshow: {
@@ -138,32 +139,6 @@ window.angular.module('starterApp', [
         ]
       }
     },
-    // nhl: {
-    //   thumbs: {
-    //   1 : {
-    //     section: 1,
-    //     images: [
-    //     {title: 'Fastest Skater', file: 'assets/img/nhl/Fastest-Skater.png', videoUrl: 'https://vimeo.com/119143705', hover: false, divClass: ngClasses.saturation},
-    //     {title: 'Hardest Shot', file: 'assets/img/nhl/Hardest-Shot.png', videoUrl: 'https://vimeo.com/119143706', hover: false, divClass: ngClasses.saturation},
-    //     {title: 'Shootout', file: 'assets/img/nhl/Shootout.png', videoUrl: 'https://vimeo.com/119143707', hover: false, divClass: ngClasses.saturation}
-    //     ]
-    //   },
-    //   2 : {
-    //     section: 2,
-    //     images: [
-    //     {title: 'subtitle', file: 'assets/img/nhl/Fastest-Skater.png', videoUrl: 'https://vimeo.com/87061411', hover: false, divClass: ngClasses.saturation},
-    //     {title: 'subtitle', file: 'assets/img/nhl/Hardest-Shot.png', videoUrl: 'https://vimeo.com/61194221', hover: false, divClass: ngClasses.saturation},
-    //     {title: 'subtitle', file: 'assets/img/nhl/Shootout.png', videoUrl: 'https://vimeo.com/26400026', hover: false, divClass: ngClasses.saturation}
-    //     ]
-    //   }
-    //   },
-    //   vignettes: [
-    //   {title: 'get busy', client: 'whysowhite', file: 'Get-Busy', videoUrl: 'https://vimeo.com/87061411', hover: false, divClass: ngClasses.saturation},
-    //   {title: 'down down boy', client: 'dash hammerstein', file: 'DDB', videoUrl: 'https://vimeo.com/61194221', hover: false, divClass: ngClasses.saturation},
-    //   {title: 'wait', client: 'short film featuring music from Zero 7', file: 'Wait', videoUrl: 'https://vimeo.com/26400026', hover: false, divClass: ngClasses.saturation}
-    //   ]
-
-    // },
     twofour: {
       heroImage: { hover: false, src: 'assets/img/2040/2040-Main-Color.png', videoUrl: 'https://vimeo.com/86482447', divClass: '{"saturate": this.heroImage.hover, "desaturate":  !this.heroImage.hover}' }
     },
@@ -219,13 +194,6 @@ window.angular.module('starterApp', [
           { title: 'jack adams award', client: '2014 nhl awards', file: 'Adams', videoUrl: 'https://vimeo.com/119059238', hover: false, divClass: ngClasses.saturation },
           { title: 'frank j. selke trophy', client: '2014 nhl awards', file: 'Selke', videoUrl: 'https://vimeo.com/119059237', hover: false, divClass: ngClasses.saturation },
           { title: 'michelle wie', client: 'img productions', file: 'Michelle-Wie', videoUrl: 'https://vimeo.com/114353331', hover: false, divClass: ngClasses.saturation }
-          // {title: 'fastest skater', client:'2015 nhl all-star skills competition', file: '', videoUrl: '', hover: false, divClass: ngClasses.saturation},
-          // {title: 'hardest shot', client:'2015 nhl all-star skills competition', file: '', videoUrl: '', hover: false, divClass: ngClasses.saturation},
-          // {title: 'accuracy shooting', client:'2015 nhl all-star skills competition', file: 'Accuracy', videoUrl: 'https://vimeo.com/120620686', hover: false, divClass: ngClasses.saturation},
-          // {title: 'relay challenge', client:'2015 nhl all-star skills competition', file: 'Relay-Challenge', videoUrl: 'https://vimeo.com/120620685', hover: false, divClass: ngClasses.saturation},
-          // {title: 'breakaway', client:'2015 nhl all-star skills competition', file: 'Breakaway', videoUrl: 'https://vimeo.com/120620684', hover: false, divClass: ngClasses.saturation}
-          // {title: 'shootout', client:'2015 nhl all-star skills competition', file: '', videoUrl: '', hover: false, divClass: ngClasses.saturation},
-          // {title: 'victor cruz highlight reel', client:'img productions', file: '', videoUrl: '', hover: false, divClass: ngClasses.saturation}
         ]
       },
       5: {
@@ -262,12 +230,10 @@ window.angular.module('starterApp', [
   }
 
   $scope.showVideo = function (obj) {
-    var href = obj.videoUrl
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      var id = href.split('https://vimeo.com/')[1]
+      const id = obj.videoUrl.split('https://vimeo.com/')[1]
       window.open('http://player.vimeo.com/video/' + id)
     } else {
-      // e.preventDefault()
       window.$.fancyboxPlus({
         'padding': 0,
         'autoScale': false,
@@ -275,10 +241,9 @@ window.angular.module('starterApp', [
         'transitionOut': 'elastic',
         'speedIn': 600,
         'speedOut': 200,
-        // 'title'   : (this).title,
         'width': 960,
         'height': 540,
-        'href': href.replace(new RegExp('([0-9])', 'i'), 'moogaloop.swf?clip_id=$1'),
+        'href': obj.videoUrl.replace(new RegExp('([0-9])', 'i'), 'moogaloop.swf?clip_id=$1'),
         'type': 'swf'
       })
     }
