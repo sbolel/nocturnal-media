@@ -1,9 +1,6 @@
-# express-angular-starter
+# Nocturnal Media
 
-<!-- [![NPM version][npm-image]][npm-url]
-[![NPM downloads][npm-downloads-image]][npm-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![License][license-image]][license-url] -->
+This is the server for [nocturnalmedia.tv](http://nocturnalmedia.tv)
 
 Requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.org/), which can both be installed by following the instructions on https://nodejs.org/. Installing Node.js also installs npm.
 
