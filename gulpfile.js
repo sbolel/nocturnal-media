@@ -35,7 +35,6 @@ const vendorComment = '/*\n' +
     ' */\n'
 
 gulp.task('sass', () => {
-  console.log(path.join(__dirname, 'app'))
   gulp.src(['./app/assets/sass/main.scss'])
     .pipe(compass({
       project: path.join(__dirname, 'app/assets'),
