@@ -12,6 +12,6 @@ dependencies:
 
 test:
   pre:
-    - gulp sass
+    - npm run build:css
   #   - gulp build
   #   - gulp vendor

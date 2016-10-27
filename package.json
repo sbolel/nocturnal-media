@@ -21,7 +21,8 @@
   },
   "private": true,
   "scripts": {
-    "build": "gulp build; gulp vendor; gulp bundle; gulp sass",
+    "build": "./node_modules/.bin/gulp",
+    "build:css": "./node_modules/.bin/gulp sass",
     "debug": "./node_modules/.bin/nodemon server/index.js",
     "lint:js": "./node_modules/.bin/eslint -c .eslintrc.yml ./**/*.js --ignore-path .eslintignore",
     "lint:standard": "./node_modules/.bin/standard",
