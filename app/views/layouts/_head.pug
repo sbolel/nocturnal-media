@@ -1,30 +1,6 @@
 meta(charset='utf-8')
 
-block title
-  title Nocturnal Media
-
-meta(http-equiv='X-UA-Compatible', content='IE=edge')
-meta(name='viewport', content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width')
-meta(name='robots', content='all')
-
-meta(name='author', content='Nocturnal Media <info@nocturnalmedia.tv>')
-meta(name='description', content='NY-based production company - directing, producing, cinematography, editing, writing from 2 Northwestern alumni - Roland Smith & Will Keese')
-meta(name='keywords', content='Nocturnal Media,Production,Directing,Writing,Cinematorgraphy,Video Editing,Movie,Video')
-meta(property='og:image', content='http://nocturnalmedia.tv/img/nocturnal-media.jpg')
-meta(itemprop='image', content='http://nocturnalmedia.tv/img/nocturnal-media.jpg')
-meta(property='og:image:type', content='image/jpg')
-meta(property='og:image:width', content='640')
-meta(property='og:image:height', content='360')
-meta(property='og:description', content='NY-based production company - directing, producing, cinematography, editing, writing from 2 Northwestern alumni - Roland Smith & Will Keese')
-meta(property='og:title', content='Nocturnal Media')
-meta(itemprop='description', content='NY-based production company - directing, producing, cinematography, editing, writing from 2 Northwestern alumni - Roland Smith & Will Keese')
-meta(itemprop='name', content='Nocturnal Media')
-meta(property='og:url', content='http://nocturnalmedia.tv/')
-meta(property='og:image', content='http://nocturnalmedia.tv/img/nocturnal-media.jpg')
-
-link(href='img/favicon.png', rel='shortcut icon')
-link(href='img/favicon.png', rel='apple-itouch-icon')
-
+include ./_meta
 block meta
 
 script(src='dist/vendor.min.js')
@@ -32,11 +8,11 @@ script(src='dist/nocturnal-media.js')
 base(href='/')
 block scripts
 
+link(rel='stylesheet', href='vendor/fancybox/source/jquery.fancybox.css')
+link(rel='stylesheet', href='//cloud.typography.com/6310472/693286/css/fonts.css')
 style
   include ../../dist/main.css
   include ../../assets/css/bootstrap.min.css
   include ../../assets/css/font-awesome.min.css
   include ../../dist/main.css
-  link(rel='stylesheet', href='vendor/fancybox/source/jquery.fancybox.css')
-  link(rel='stylesheet', href='//cloud.typography.com/6310472/693286/css/fonts.css')
   block style
