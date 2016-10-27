@@ -96,3 +96,5 @@ gulp.task('webserver', () => {
 gulp.task('open', () => opn(`http://${serverConfig.host}:${serverConfig.port}`))
 
 gulp.task('serve', ['webserver', 'open'])
+
+gulp.task('default', ['build', 'vendor'])
