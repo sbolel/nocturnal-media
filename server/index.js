@@ -25,6 +25,7 @@ app.set('view engine', 'html')
 
 // static assets
 app.use('/assets/img', express.static(path.resolve(__dirname, '../app/assets/img')))
+app.use('/assets/js', express.static(path.resolve(__dirname, '../app/assets/js')))
 app.use('/dist', express.static(path.resolve(__dirname, '../app/dist')))
 app.use('/favicon.ico', express.static(path.resolve(__dirname, '../app/assets/img/favicon.ico')))
 app.use('/fonts', express.static(path.resolve(__dirname, '../app/assets/fonts')))
