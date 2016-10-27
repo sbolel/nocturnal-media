@@ -4,12 +4,11 @@ const embedTemplates = require('gulp-angular-embed-templates')
 const gulp = require('gulp')
 const ngAnnotate = require('gulp-ng-annotate')
 const opn = require('opn')
-const path = require('path')
 const rename = require('gulp-rename')
+const sass = require('gulp-sass')
 const stripDebug = require('gulp-strip-debug')
 const uglify = require('gulp-uglify')
 const webserver = require('gulp-webserver')
-const sass = require('gulp-sass')
 
 const pkg = require('./package.json')
 const appScripts = require('./index').app
