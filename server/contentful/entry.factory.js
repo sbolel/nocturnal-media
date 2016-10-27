@@ -2,20 +2,14 @@ const client = require('./client')
 
 class ContentfulEntry {
   constructor (id, contentType, include, limit) {
-    this._sys = {
-      id: id,
-      contentType: {
-        sys: {
-          id: contentType
-        }
-      }
-    }
+    /* eslint-disable camelcase */
     this._query = {
-      content_type: this._sys.contentType.sys.id,
+      content_type: contentType,
       include: include || 10,
-      limit: 1 || limit,
-      'sys.id': this._sys.id
+      limit: limit || 1,
+      'sys.id': id
     }
+    /* eslint-enable camelcase */
   }
   get query () {
     return this._query
