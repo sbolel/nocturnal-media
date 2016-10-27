@@ -10,8 +10,8 @@ dependencies:
   override:
     - npm install
 
-# test:
-  # pre:
+test:
+  pre:
+    - gulp sass
   #   - gulp build
   #   - gulp vendor
-  #   - gulp sass
