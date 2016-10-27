@@ -63,19 +63,20 @@
       <div class="row collection-row" ng-repeat="item in data.portfolio">
         <div class="col-md-10 col-md-offset-1">
           <div class="row collection-title">
-            <h1 class="col-md-12">{{item.title}}</h1>
+            <h1 class="col-md-12" ng-bind="item.title"></h1>
           </div>
           <div class="row collection-subtitle">
-            <h2 class="col-md-12"><span>{{item.subtitle}}&nbsp;</span>{{item.client}}</h2>
+            <h2 class="col-md-12"><span ng-bind="item.subtitle"></span>&nbsp;<span ng-bind="item.client"></span></h2>
           </div>
           <div class="row">
             <div class="col-md-4 collection-images pointer" ng-repeat="img in item.images" ng-mouseover="onMouseOver(this,true)" ng-mouseout="onMouseOut(this,true)">
-              <img ng-class="{{img.divClass}}" ng-click="showVideo(this.img)" ng-src="assets/img/portfolio/{{img.file}}.png" />
+              <img ng-class="{{img.divClass}}" ng-click="showVideo(this.img)" ng-src="{{::img.file}}" />
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Contact Page -->
     <div ng-show="state.name==='root.contact'">
       <div id="form" class="row m-t-lg">
@@ -86,6 +87,8 @@
         </div>
       </div>
     </div>
+
+    <!-- 2040 page -->
     <div ng-show="state.name==='root.2040'" class="row collection-row">
       <div class="col-md-10 col-md-offset-1">
         <div class="row collection-title">
@@ -126,6 +129,8 @@
         </div>
       </div>
     </div>
+
+    <!-- NHL page -->
     <div ng-show="state.name==='root.nhl'" class="row collection-row">
       <div class="col-md-10 col-md-offset-1">
         <div class="row collection-title">
@@ -208,6 +213,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </div>
 
