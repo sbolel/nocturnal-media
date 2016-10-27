@@ -91,7 +91,8 @@
       "mocha"
     ],
     "ignore": [
-      "app/dist"
+      "app/dist",
+      "app/assets/js"
     ]
   }
 }
