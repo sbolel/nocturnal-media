@@ -20,6 +20,7 @@ module.exports = {
   vendor: [
     './node_modules/jquery/dist/jquery.js',
     './node_modules/fancybox-plus/dist/jquery.fancybox-plus.js',
+    './node_modules/jquery.backstretch/jquery.backstretch.js',
     './node_modules/angular/angular.js',
     './node_modules/angular-sanitize/angular-aria.js',
     './node_modules/angular-animate/angular-animate.js',
