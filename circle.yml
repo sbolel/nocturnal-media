@@ -1,0 +1,17 @@
+machine:
+  environment:
+    NODE_ENV: test
+  node:
+    version: 6.9.0
+
+dependencies:
+  cache_directories:
+    - node_modules
+  override:
+    - npm install
+
+# test:
+  # pre:
+  #   - gulp build
+  #   - gulp vendor
+  #   - gulp sass
