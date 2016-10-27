@@ -1,0 +1,41 @@
+.desaturate {
+  filter: saturate(0%);
+  -moz-filter: saturate(0%);
+  -ms-filter: saturate(0%);
+  -o-filter: saturate(0%);
+  -webkit-filter: saturate(0%);
+}
+
+.saturate {
+  filter: saturate(100%);
+  -moz-filter: saturate(100%);
+  -ms-filter: saturate(100%);
+  -o-filter: saturate(100%);
+  -webkit-filter: saturate(100%);
+}
+
+.darken {
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
+  -moz-filter: brightness(0.7);
+  -o-filter: brightness(0.7);
+  -ms-filter: brightness(0.7);
+}
+
+.fade {
+  .ng-hide {
+    opacity: 0;
+    &-remove {
+      transition: all .5s;
+      -o-transition: all .5s;
+      -moz-transition: all .5s;
+      -webkit-transition: all .5s;
+    }
+    &-add {
+      transition: all .5s;
+      -o-transition: all .5s;
+      -moz-transition: all .5s;
+      -webkit-transition: all .5s;
+    }
+  }
+}

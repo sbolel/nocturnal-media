@@ -1,0 +1,173 @@
+body {
+  background-color: #140e17;
+  color: #fff;
+  font-family: 'Gotham A', 'Gotham B', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  height: auto;
+  webkit-tap-highlight-color: rgba(255, 255, 255, .2);
+  width: 100%;
+}
+
+html {
+  background-color: #140e17;
+  height: 100%;
+  width: 100%;
+}
+
+// padding
+.p {
+  &-n {
+    padding: 0 !important;
+  }
+  &-l-sm {
+    padding: 0 0 0 7px;
+  }
+  &-r-sm {
+    padding: 0 7px 0 0;
+  }
+}
+
+// margin
+.m {
+  &-n {
+    margin: 0 !important;
+  }
+  &-t-lg {
+    margin-top: 20px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.client-col{
+  padding: 5px;
+}
+
+.fill {
+  height: 100%;
+}
+
+.pages {
+  position: relative;
+  top: -180px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+.valign{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+}
+
+// ------------
+// SECTIONS
+// ============
+
+footer {
+  text-align: center;
+}
+
+#hero-container {
+  background: none;
+  border-bottom: 1px solid white;
+  height: 431px;
+  position: relative;
+}
+
+#slideshow {
+  background: none;
+  height: 429px;
+}
+
+#content-view {
+  position: relative;
+  /*top: -180px;*/
+}
+
+#page-title {
+  height: 40px;
+  width: auto;
+
+  > * {
+    height: 100%;
+    line-height: 39px;
+    margin: 0;
+  }
+
+  > h1 {
+    background-color: white;
+    color: #140e17;
+    float: left;
+    font-weight: 400;
+    min-width: 253px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  > h2 {
+    float: left;
+    font-weight: 100;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 10px;
+    text-align: left;
+    width: 500px;
+  }
+}
+
+span.socials {
+  bottom: 50px;
+  float: right;
+  font-size: 1.25em;
+  line-height: 50px;
+  padding-right: 15px;
+  position: relative;
+  > a {
+    padding-left: 5px;
+  }
+}
+
+li.socials.visible-xs {
+  > span {
+    line-height: 40px;
+    > a {
+      margin: 5px;
+    }
+  }
+}
+
+::-moz-selection {
+  background: #fcfcfc;
+  background: rgba(255,255,255,.2);
+  text-shadow: none;
+}
+
+::selection {
+  background: #fcfcfc;
+  background: rgba(255,255,255,.2);
+  text-shadow: none;
+}
+
+img::selection {
+  background: 0 0;
+}
+
+img::-moz-selection {
+  background: 0 0;
+}
