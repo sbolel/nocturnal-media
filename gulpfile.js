@@ -1,5 +1,4 @@
 const banner = require('gulp-banner')
-const compass = require('gulp-compass')
 const concat = require('gulp-concat')
 const embedTemplates = require('gulp-angular-embed-templates')
 const gulp = require('gulp')
@@ -10,6 +9,7 @@ const rename = require('gulp-rename')
 const stripDebug = require('gulp-strip-debug')
 const uglify = require('gulp-uglify')
 const webserver = require('gulp-webserver')
+const sass = require('gulp-sass')
 
 const pkg = require('./package.json')
 const appScripts = require('./index').app
@@ -24,41 +24,36 @@ const appComment = '/*\n' +
     ' * <%= pkg.name %> <%= pkg.version %>\n' +
     ' * <%= pkg.description %>\n' +
     ' * <%= pkg.homepage %>\n' +
-    ' * Copyright 2016 <%= pkg.author %>\n' +
+    ' * Copyright 2016 <%= pkg.author.name %>\n' +
     ' */\n'
 
 const vendorComment = '/*\n' +
     ' * <%= pkg.name %> <%= pkg.version %>\n' +
     ' * <%= pkg.description %>\n' +
     ' * <%= pkg.homepage %>\n' +
-    ' * Copyright 2016 <%= pkg.author %>\n' +
+    ' * Copyright 2016 <%= pkg.author.name %>\n' +
     ' */\n'
 
-gulp.task('sass', () => {
-  gulp.src(['./app/assets/sass/main.scss'])
-    .pipe(compass({
-      project: path.join(__dirname, 'app/assets'),
-      import_path: '../../node_modules',
-      sass: './sass',
-      css: '../dist',
-      image: './image',
-      style: 'compressed'
-    }))
-    .pipe(gulp.dest('app/dist'))
-})
+gulp.task('sass', () => gulp.src('./app/assets/sass/main.scss')
+  .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+  .pipe(banner(appComment, { pkg: pkg }))
+  .pipe(rename({suffix: '.min'}))
+  .pipe(gulp.dest('app/assets/css'))
+)
 
-gulp.task('build', () => {
-  gulp.src(appScripts)
-    .pipe(embedTemplates({basePath: `${__dirname}/app`}))
-    .pipe(ngAnnotate())
-    .pipe(concat(`${pkg.name}.js`))
-    .pipe(gulp.dest('app/dist'))
-    .pipe(stripDebug())
-    .pipe(uglify())
-    .pipe(banner(appComment, { pkg: pkg }))
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('app/dist'))
-})
+gulp.task('sass:watch', () => gulp.watch('./app/**/*.scss', ['sass']))
+
+gulp.task('build', () => gulp.src(appScripts)
+  .pipe(embedTemplates({basePath: `${__dirname}/app`}))
+  .pipe(ngAnnotate())
+  .pipe(concat(`${pkg.name}.js`))
+  .pipe(gulp.dest('app/dist'))
+  .pipe(stripDebug())
+  .pipe(uglify())
+  .pipe(banner(appComment, { pkg: pkg }))
+  .pipe(rename({suffix: '.min'}))
+  .pipe(gulp.dest('app/dist'))
+)
 
 gulp.task('vendor', () => {
   gulp.src(vendorScripts)
