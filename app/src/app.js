@@ -134,63 +134,35 @@ window.angular.module('starterApp', [
         title: 'music video',
         subtitle: '',
         client: '',
-        images: [
-          { title: 'get busy', client: 'whysowhite', file: 'Get-Busy', videoUrl: 'https://vimeo.com/87061411', hover: false, divClass: ngClasses.saturation },
-          { title: 'down down boy', client: 'dash hammerstein', file: 'DDB', videoUrl: 'https://vimeo.com/61194221', hover: false, divClass: ngClasses.saturation },
-          { title: 'wait', client: 'short film featuring music from Zero 7', file: 'Wait', videoUrl: 'https://vimeo.com/26400026', hover: false, divClass: ngClasses.saturation },
-          { title: 'something good to eat', client: 'rosie\'s theater kids', file: 'Something-Good', videoUrl: 'https://vimeo.com/129844688', hover: false, divClass: ngClasses.saturation }
-        ]
+        images: $rootScope.PAGE_DATA.portfolio.musicVideo
       },
       2: {
         section: 2,
         title: 'commercial',
         subtitle: '',
         client: '',
-        images: [
-          { title: 'free & secure', client: 'chargeitspot', file: 'CiS', videoUrl: 'https://vimeo.com/111853529', hover: false, divClass: ngClasses.saturation },
-          { title: 'faux pas', client: 'american juice company', file: 'FauxPas', videoUrl: 'https://vimeo.com/83325939', hover: false, divClass: ngClasses.saturation },
-          { title: 'tunie’s', client: 'tunie’s natural grocery', file: 'Tunies', videoUrl: 'https://vimeo.com/114486641', hover: false, divClass: ngClasses.saturation },
-          { title: 'goldfish', client: 'goldfish swim school', file: 'GoldSwim', videoUrl: 'https://vimeo.com/95991792', hover: false, divClass: ngClasses.saturation },
-          { title: 'auria', client: 'wavemachine labs', file: 'Auria', videoUrl: 'https://vimeo.com/45937660', hover: false, divClass: ngClasses.saturation },
-          { title: 'armory', client: 'american juice company', file: 'Armory', videoUrl: 'https://vimeo.com/76840123', hover: false, divClass: ngClasses.exposure }
-        ]
+        images: $rootScope.PAGE_DATA.portfolio.commercial
       },
       3: {
         section: 3,
         title: 'comedy',
         subtitle: '',
         client: '',
-        images: [
-          { title: 'pilot episode', client: '2040', file: '2040', videoUrl: 'https://vimeo.com/86482447', hover: false, divClass: ngClasses.saturation },
-          { title: 'baristas', client: 'batman vs. superman', file: 'BS-Coffee', videoUrl: 'https://vimeo.com/119062586', hover: false, divClass: ngClasses.saturation },
-          { title: 'saturday', client: 'batman vs. superman', file: 'BS-Outdoors', videoUrl: 'https://vimeo.com/119062591', hover: false, divClass: ngClasses.saturation },
-          { title: 'rainy day', client: 'batman vs. superman', file: 'BS-Indoors', videoUrl: 'https://vimeo.com/119062593', hover: false, divClass: ngClasses.saturation },
-          { title: 'switch', client: 'batman vs. superman', file: 'BS-Impersonate', videoUrl: 'https://vimeo.com/119062595', hover: false, divClass: ngClasses.saturation },
-          { title: 'yoga', client: 'batman vs. superman', file: 'BS-Yoga', videoUrl: 'https://vimeo.com/119062588', hover: false, divClass: ngClasses.saturation }
-        ]
+        images: $rootScope.PAGE_DATA.portfolio.comedy
       },
       4: {
         section: 4,
         title: 'sports',
         subtitle: '',
         client: '',
-        images: [
-          { title: 'hart memorial trophy', client: '2014 nhl awards', file: 'Hart-Trophy', videoUrl: 'https://vimeo.com/119059235', hover: false, divClass: ngClasses.saturation },
-          { title: 'norris trophy', client: '2014 nhl awards', file: 'Norris-Trophy', videoUrl: 'https://vimeo.com/119059236', hover: false, divClass: ngClasses.saturation },
-          { title: 'jack adams award', client: '2014 nhl awards', file: 'Adams', videoUrl: 'https://vimeo.com/119059238', hover: false, divClass: ngClasses.saturation },
-          { title: 'frank j. selke trophy', client: '2014 nhl awards', file: 'Selke', videoUrl: 'https://vimeo.com/119059237', hover: false, divClass: ngClasses.saturation },
-          { title: 'michelle wie', client: 'img productions', file: 'Michelle-Wie', videoUrl: 'https://vimeo.com/114353331', hover: false, divClass: ngClasses.saturation }
-        ]
+        images: $rootScope.PAGE_DATA.portfolio.sports
       },
       5: {
         section: 5,
         title: 'short documentary',
         subtitle: '',
         client: '',
-        images: [
-          { title: 'roger ebert', client: 'chicagoans of the year', file: 'Ebert', videoUrl: 'https://vimeo.com/34587230', hover: false, divClass: ngClasses.saturation },
-          { title: 'for generations to come', client: 'audubon new york', file: 'For-Generations', videoUrl: 'https://vimeo.com/30775389', hover: false, divClass: ngClasses.saturation }
-        ]
+        images: $rootScope.PAGE_DATA.portfolio.documentary
       }
     }
   }
