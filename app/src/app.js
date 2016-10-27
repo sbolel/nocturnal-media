@@ -1,6 +1,4 @@
-'use strict'
-
-window.angular.module('starterApp', [
+angular.module('starterApp', [
   'ngAnimate',
   'ui.router',
   'ngSanitize'
@@ -65,11 +63,6 @@ window.angular.module('starterApp', [
 .run(function ($rootScope) {
   $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
     $rootScope.currentState = toState
-    if (toState.data.title === 'back') {
-      // var body = $('html, body')
-      // var title = $('#page-title')
-      // body.animate({scrollTop:title.position().top * 2}, '0', 'swing', function () {})
-    }
   })
   if (typeof $rootScope.userQuery === 'undefined') {
     $rootScope.userQuery = {}
@@ -247,45 +240,50 @@ window.angular.module('starterApp', [
       }
     }
   }
-  // $scope.getImageClassOnHover = function (divClass) {
-  //   return '{'' + divClass.isHover + '': img.hover, '' + divClass.isNotHover + '': !img.hover}'
-  // }
-  // $scope.onMouseOver = function (obj, changeText) {
-  //   obj.img.hover = true
-  //   if (changeText) {
-  //     obj.item.subtitle = obj.img.title
-  //     obj.item.client = obj.img.client
-  //   }
-  // }
-  // $scope.onMouseOut = function (obj, changeText) {
-  //   obj.img.hover = false
-  //   if (changeText) {
-  //     obj.item.subtitle = ''
-  //     obj.item.client = ''
-  //   }
-  // }
-  // $scope.showVideo = function (obj) {
-  //   var href = obj.videoUrl
-  //   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  //     var id = href.split('https://vimeo.com/')[1]
-  //     window.open('http://player.vimeo.com/video/' + id)
-  //   } else {
-  //     // e.preventDefault()
-  //     $.fancybox({
-  //       'padding': 0,
-  //       'autoScale': false,
-  //       'transitionIn': 'elastic',
-  //       'transitionOut': 'elastic',
-  //       'speedIn': 600,
-  //       'speedOut': 200,
-  //       // 'title'   : (this).title,
-  //       'width': 960,
-  //       'height': 540,
-  //       'href': href.replace(new RegExp('([0-9])', 'i'), 'moogaloop.swf?clip_id=$1'),
-  //       'type': 'swf'
-  //     })
-  //   }
-  // }
+
+  $scope.getImageClassOnHover = function (divClass) {
+    return '{' + divClass.isHover + ': img.hover, ' + divClass.isNotHover + ': !img.hover}'
+  }
+
+  $scope.onMouseOver = function (obj, changeText) {
+    obj.img.hover = true
+    if (changeText) {
+      obj.item.subtitle = obj.img.title
+      obj.item.client = obj.img.client
+    }
+  }
+
+  $scope.onMouseOut = function (obj, changeText) {
+    obj.img.hover = false
+    if (changeText) {
+      obj.item.subtitle = ''
+      obj.item.client = ''
+    }
+  }
+
+  $scope.showVideo = function (obj) {
+    var href = obj.videoUrl
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      var id = href.split('https://vimeo.com/')[1]
+      window.open('http://player.vimeo.com/video/' + id)
+    } else {
+      // e.preventDefault()
+      $.fancybox({
+        'padding': 0,
+        'autoScale': false,
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic',
+        'speedIn': 600,
+        'speedOut': 200,
+        // 'title'   : (this).title,
+        'width': 960,
+        'height': 540,
+        'href': href.replace(new RegExp('([0-9])', 'i'), 'moogaloop.swf?clip_id=$1'),
+        'type': 'swf'
+      })
+    }
+  }
+
   // $document.find('#slideshow').backstretch($scope.data.slideshow.images, { duration: 3000, fade: 750 })
 })
 

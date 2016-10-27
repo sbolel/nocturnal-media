@@ -3,6 +3,7 @@
   <div id="slideshow"></div>
 </div>
 <div class="container">
+
   <!-- Slogan Box -->
   <div class="slogan-container">
     <div class="row">
@@ -29,6 +30,7 @@
     </div>
   </div>
   <div class="pages">
+
     <!-- Home Page -->
     <div ng-show="state.name==='root.home'">
       <div class="row collection-row" ng-repeat="item in data.home">
@@ -55,6 +57,7 @@
         </div>
       </div>
     </div>
+
     <!-- Portfolio Page -->
     <div ng-show="state.name==='root.portfolio'">
       <div class="row collection-row" ng-repeat="item in data.portfolio">
@@ -207,6 +210,7 @@
     </div>
   </div>
 </div>
+
 <script>
 var script = document.createElement('script');
 script.type = 'text/javascript';
