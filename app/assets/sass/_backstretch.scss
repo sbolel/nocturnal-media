@@ -1,0 +1,18 @@
+.backstretch {
+  height: 100%;
+  width: 100%;
+
+  img {
+    z-index: 1000 !important;
+  }
+
+  &-horizontal {
+    height: 100%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: auto;
+  }
+}
