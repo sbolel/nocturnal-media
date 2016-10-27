@@ -12,6 +12,4 @@ dependencies:
 
 test:
   pre:
-    - npm run build:css
-  #   - gulp build
-  #   - gulp vendor
+    - mkdir -p ~/nocturnal-media/app/dist/ && touch ~/nocturnal-media/app/dist/main.css
