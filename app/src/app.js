@@ -268,7 +268,7 @@ window.angular.module('starterApp', [
       window.open('http://player.vimeo.com/video/' + id)
     } else {
       // e.preventDefault()
-      window.$.fancybox({
+      window.$.fancyboxPlus({
         'padding': 0,
         'autoScale': false,
         'transitionIn': 'elastic',
