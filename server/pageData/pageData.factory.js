@@ -22,13 +22,14 @@ class SpotlightData {
     log.debug(fields)
     if (typeof fields === 'undefined' || !fields) return null
 
-    const imageUrls = fields.images.map(imageItem =>
-      Object.assign({}, {
+    const imageUrls = fields.images.map(imageItem => {
+      if (typeof imageItem.fields.file === 'undefined' || !imageItem.fields.file) return null
+      return Object.assign({}, {
         divClass: '{"saturate": img.hover, "desaturate":  !img.hover}',
         file: `https:${imageItem.fields.file.url}`,
         hover: false
       })
-    )
+    })
 
     this.data = {
       client: fields.client || '',
