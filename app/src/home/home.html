@@ -12,7 +12,7 @@
           <div class="fill">
             <h2>Inspired by what keeps us up at night.</h2>
             <p>
-              <a class="slogan" href="javascript:void(0)" ng-click="showVideo({videoUrl: 'https://vimeo.com/119135127'})">
+              <a class="slogan" href="javascript:void(0)" ng-click="showVideo('https://vimeo.com/119135127')">
                 view our demo reel <i class="fa fa-arrow-circle-right"></i>
               </a>
             </p>
@@ -42,7 +42,10 @@
       <div class="row collection-row" ng-repeat="item in data.home | orderBy:'order'">
         <div class="col-md-10 col-md-offset-1">
           <div class="row collection-title">
-            <h1 class="col-md-12"><a target="_blank" href="{{::item.url}}" ng-bind="item.title"></a></h1>
+            <h1 class="col-md-12">
+              <a ng-if="item.titleLink.fields.action === 'openPage'" href="{{::item.titleLink.fields.url}}" ng-bind="item.title" target="_blank"></a>
+              <a ng-if="item.titleLink.fields.action === 'showVideo'" ng-click="showVideo(item.titleLink.fields.url)" ng-bind="item.title"></a>
+            </h1>
           </div>
           <div class="row collection-subtitle">
             <div class="col-md-7 p-l-sm">
@@ -53,7 +56,7 @@
                 <a ng-if="link.fields.action === 'openPage'" href="{{::link.fields.url}}" target="_blank">
                   <h2>{{::link.fields.text}} <i class="fa fa-external-link"></i></h2>
                 </a>
-                <a ng-if="link.fields.action === 'showVideo'" ng-click="showVideo(item)">
+                <a ng-if="link.fields.action === 'showVideo'" ng-click="showVideo(link.fields.url)">
                   <h2>{{::link.fields.text}} <img src="assets/img/btn-arrow.png"/></h2>
                 </a>
               </section>
@@ -80,7 +83,7 @@
           </div>
           <div class="row">
             <div class="col-md-4 collection-images pointer" ng-repeat="img in item.images" ng-mouseover="onMouseOver(this,true)" ng-mouseout="onMouseOut(this,true)">
-              <img ng-class="{{img.divClass}}" ng-click="showVideo(this.img)" ng-src="{{::img.file}}" />
+              <img ng-class="{{img.divClass}}" ng-click="showVideo(this.img.videoUrl)" ng-src="{{::img.file}}" />
             </div>
           </div>
         </div>

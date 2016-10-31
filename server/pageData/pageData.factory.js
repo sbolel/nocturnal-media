@@ -36,10 +36,9 @@ class SpotlightData {
       images: imageUrls,
       links: fields.links,
       order: fields.order,
-      projectUrl: fields.projectUrl || '#',
       title: fields.title || '',
+      titleLink: fields.titleLink,
       subtitle: fields.subtitle || '',
-      videoUrl: fields.videoUrl || '#'
     }
     return this.data
   }

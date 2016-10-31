@@ -126,9 +126,9 @@ window.angular.module('starterApp', [
     }
   }
 
-  $scope.showVideo = function (obj) {
+  $scope.showVideo = function (videoUrl) {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      const id = obj.videoUrl.split('https://vimeo.com/')[1]
+      const id = videoUrl.split('https://vimeo.com/')[1]
       window.open('http://player.vimeo.com/video/' + id)
     } else {
       window.$.fancyboxPlus({
@@ -140,7 +140,7 @@ window.angular.module('starterApp', [
         'speedOut': 200,
         'width': 960,
         'height': 540,
-        'href': obj.videoUrl.replace(new RegExp('([0-9])', 'i'), 'moogaloop.swf?clip_id=$1'),
+        'href': videoUrl.replace(new RegExp('([0-9])', 'i'), 'moogaloop.swf?clip_id=$1'),
         'type': 'swf'
       })
     }
