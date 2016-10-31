@@ -43,20 +43,6 @@ window.angular.module('starterApp', [
         subtitle: 'what\'s kept us up'
       }
     })
-    .state('root.2040', {
-      url: '/2040',
-      data: {
-        title: 'back',
-        subtitle: ''
-      }
-    })
-    .state('root.nhl', {
-      url: '/nhl',
-      data: {
-        title: 'back',
-        subtitle: ''
-      }
-    })
   $urlRouterProvider.otherwise('/')
 })
 
@@ -87,7 +73,33 @@ window.angular.module('starterApp', [
     },
     home: {
       1: {
-        section: 1,
+        section: 3,
+        title: 'Henri Dauman: Looking Up',
+        subtitle: '',
+        client: 'Nocturnal Media',
+        url: 'http://daumanpictures.com/lookingup/',
+        videoUrl: 'https://vimeo.com/172171679',
+        target: '_blank',
+        images: [
+          { file: 'looking-up-1', hover: false, divClass: ngClasses.saturation },
+          { file: 'looking-up-2', hover: false, divClass: ngClasses.saturation },
+          { file: 'looking-up-3', hover: false, divClass: ngClasses.saturation }
+        ]
+      },
+      2: {
+        section: 2,
+        title: 'Palm One',
+        subtitle: '',
+        client: 'Nocturnal Media',
+        url: '#',
+        images: [
+          { file: 'palm-one-1', hover: false, divClass: ngClasses.saturation },
+          { file: 'palm-one-2', hover: false, divClass: ngClasses.saturation },
+          { file: 'palm-one-3', hover: false, divClass: ngClasses.saturation }
+        ]
+      },
+      3: {
+        section: 3,
         title: 'ty\'s list',
         subtitle: '',
         client: 'crazy benjee productions | nocturnal media',
@@ -99,34 +111,7 @@ window.angular.module('starterApp', [
           { file: 'Ty-2', hover: false, divClass: ngClasses.saturation },
           { file: 'Ty-3', hover: false, divClass: ngClasses.saturation }
         ]
-      },
-      2: {
-        section: 2,
-        title: '2040',
-        subtitle: '',
-        client: 'nocturnal media',
-        url: 'root.2040',
-        images: [
-          { file: '2040-1', hover: false, divClass: ngClasses.saturation },
-          { file: '2040-2', hover: false, divClass: ngClasses.saturation },
-          { file: '2040-3', hover: false, divClass: ngClasses.saturation }
-        ]
-      },
-      3: {
-        section: 3,
-        title: 'nhl vignettes',
-        subtitle: '',
-        client: 'IMG productions | nocturnal media',
-        url: 'root.nhl',
-        images: [
-          { file: 'NHL-1', hover: false, divClass: ngClasses.saturation },
-          { file: 'NHL-2', hover: false, divClass: ngClasses.saturation },
-          { file: 'NHL-3', hover: false, divClass: ngClasses.saturation }
-        ]
       }
-    },
-    twofour: {
-      heroImage: { hover: false, src: 'assets/img/2040/2040-Main-Color.png', videoUrl: 'https://vimeo.com/86482447', divClass: '{"saturate": this.heroImage.hover, "desaturate":  !this.heroImage.hover}' }
     },
     portfolio: {
       1: {
@@ -159,7 +144,7 @@ window.angular.module('starterApp', [
       },
       5: {
         section: 5,
-        title: 'short documentary',
+        title: 'short documentary &amp; narrative',
         subtitle: '',
         client: '',
         images: $rootScope.PAGE_DATA.portfolio.documentary
