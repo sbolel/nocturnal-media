@@ -56,11 +56,6 @@ window.angular.module('starterApp', [
 })
 
 .controller('AppController', function ($rootScope, $scope, $document) {
-  const ngClasses = {
-    saturation: '{"saturate": img.hover, "desaturate":  !img.hover}',
-    exposure: '{"": img.hover, "darken": !img.hover}'
-  }
-
   $rootScope.$watch('currentState', function (newValue, oldValue) {
     $scope.state = newValue
   })
