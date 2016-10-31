@@ -8,7 +8,7 @@ const Entry = require('../../../server/contentful/entry.factory')
 describe('Contentful', () => {
   describe('Module', () => {
     it('is a valid node module', () => {
-      expect(contentfulModule).to.have.all.keys('client', 'Entry')
+      expect(contentfulModule).to.have.all.keys('client', 'Entry', 'Entries')
     })
   })
 
