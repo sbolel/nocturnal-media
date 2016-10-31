@@ -2,6 +2,9 @@
 
 #### Sun Oct 30 2016
 
+- [ ] home links should actually work
+- [ ] home link underglow shouldnt resize the bar
+- [ ] change fonts to new one
 - [x] Lose “2040” and “NHL Vignettes” from HOMEPAGE
 - [x] Move “Ty’s List” Section to the bottom
 - [x] The new order on the homepage for the “spotlight” section should be:
@@ -21,5 +24,6 @@
     + First in line
 - [x] Change “Short Documentary” section to  “Short Documentary & Narrative”
     + [x] Add “Interior Silence” to Short Documentary & Narrative section
+    + [ ] ?? whats the client
 
 
