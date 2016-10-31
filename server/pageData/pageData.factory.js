@@ -38,7 +38,7 @@ class SpotlightData {
       order: fields.order,
       title: fields.title || '',
       titleLink: fields.titleLink,
-      subtitle: fields.subtitle || '',
+      subtitle: fields.subtitle || ''
     }
     return this.data
   }
