@@ -27,7 +27,7 @@ app.set('view engine', 'html')
 app.use('/assets/img', express.static(path.resolve(__dirname, '../app/assets/img')))
 app.use('/assets/js', express.static(path.resolve(__dirname, '../app/assets/js')))
 app.use('/dist', express.static(path.resolve(__dirname, '../app/dist')))
-app.use('/favicon.ico', express.static(path.resolve(__dirname, '../app/assets/img/favicon.ico')))
+app.use('/favicon.png', express.static(path.resolve(__dirname, '../app/assets/img/favicon.png')))
 app.use('/fonts', express.static(path.resolve(__dirname, '../app/assets/fonts')))
 
 // use api

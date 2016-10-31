@@ -39,27 +39,29 @@
 
     <!-- Home Page -->
     <div ng-show="state.name === 'root.home'">
-      <div class="row collection-row" ng-repeat="item in data.home">
+      <div class="row collection-row" ng-repeat="item in data.home | orderBy:'order'">
         <div class="col-md-10 col-md-offset-1">
           <div class="row collection-title">
             <h1 class="col-md-12"><a target="_blank" href="{{::item.url}}" ng-bind="item.title"></a></h1>
           </div>
           <div class="row collection-subtitle">
             <div class="col-md-7 p-l-sm">
-              <h2 class="p-n" ng-bind="item.client"></h2>
+              <h2 class="p-n" ng-bind="item.subtitle"></h2>
             </div>
             <div class="col-md-5 collection-links p-r-sm">
-              <a ng-click="showVideo(item)">
-                <h2>view trailer <img src="assets/img/btn-arrow.png"/></h2>
-              </a>
-              <a href="{{::item.url}}" target="{{::item.target}}">
-                <h2>view project <i class="fa fa-external-link"></i></h2>
-              </a>
+              <section ng-repeat="link in item.links | orderBy:'-fields.text'">
+                <a ng-if="link.fields.action === 'openPage'" href="{{::link.fields.url}}" target="_blank">
+                  <h2>{{::link.fields.text}} <i class="fa fa-external-link"></i></h2>
+                </a>
+                <a ng-if="link.fields.action === 'showVideo'" ng-click="showVideo(item)">
+                  <h2>{{::link.fields.text}} <img src="assets/img/btn-arrow.png"/></h2>
+                </a>
+              </section>
             </div>
           </div>
           <div class="row collection-images">
             <div class="col-md-4" ng-repeat="img in item.images" ng-mouseover="onMouseOver(this,false)" ng-mouseout="onMouseOut(this,false)" href="{{::item.url}}">
-              <img ng-class="{{img.divClass}}" ng-src="assets/img/home/{{::img.file}}.png" />
+              <img ng-class="{{img.divClass}}" ng-src="{{::img.file}}" />
             </div>
           </div>
         </div>

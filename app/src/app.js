@@ -71,48 +71,7 @@ window.angular.module('starterApp', [
       index: 0,
       images: $rootScope.PAGE_DATA.slideshow
     },
-    home: {
-      1: {
-        section: 3,
-        title: 'Henri Dauman: Looking Up',
-        subtitle: '',
-        client: 'Nocturnal Media',
-        url: 'http://daumanpictures.com/lookingup/',
-        videoUrl: 'https://vimeo.com/172171679',
-        target: '_blank',
-        images: [
-          { file: 'looking-up-1', hover: false, divClass: ngClasses.saturation },
-          { file: 'looking-up-2', hover: false, divClass: ngClasses.saturation },
-          { file: 'looking-up-3', hover: false, divClass: ngClasses.saturation }
-        ]
-      },
-      2: {
-        section: 2,
-        title: 'Palm One',
-        subtitle: '',
-        client: 'Nocturnal Media',
-        url: '#',
-        images: [
-          { file: 'palm-one-1', hover: false, divClass: ngClasses.saturation },
-          { file: 'palm-one-2', hover: false, divClass: ngClasses.saturation },
-          { file: 'palm-one-3', hover: false, divClass: ngClasses.saturation }
-        ]
-      },
-      3: {
-        section: 3,
-        title: 'ty\'s list',
-        subtitle: '',
-        client: 'crazy benjee productions | nocturnal media',
-        url: 'http://www.tyslist-themovie.com',
-        videoUrl: 'https://vimeo.com/118726323',
-        target: '_blank',
-        images: [
-          { file: 'Ty-1', hover: false, divClass: ngClasses.saturation },
-          { file: 'Ty-2', hover: false, divClass: ngClasses.saturation },
-          { file: 'Ty-3', hover: false, divClass: ngClasses.saturation }
-        ]
-      }
-    },
+    home: $rootScope.PAGE_DATA.spotlight,
     portfolio: {
       1: {
         section: 1,
@@ -144,7 +103,7 @@ window.angular.module('starterApp', [
       },
       5: {
         section: 5,
-        title: 'short documentary &amp; narrative',
+        title: 'short documentary & narrative',
         subtitle: '',
         client: '',
         images: $rootScope.PAGE_DATA.portfolio.documentary

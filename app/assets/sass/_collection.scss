@@ -31,11 +31,12 @@
     }
   }
 
-  &-links {
+  &-links section {
     > a {
       color: #140e17;
       float: right;
       text-align: right;
+      margin-bottom: 0;
       > h2 {
         margin-bottom: 0;
         padding-bottom: 4px;
@@ -44,13 +45,13 @@
       &:hover {
         border-bottom: 4px #ffe400 solid;
       }
-      &:not(:last-child) {
-        margin-left:1em;
-      }
-      &:last-child > h2 > i {
-        font-size: 0.75em;
-        margin-left: 0.1em;
-      }
+    }
+    &:not(:last-child) a {
+      margin-left:1em;
+    }
+    &:last-child > a > h2 > i {
+      font-size: 0.75em;
+      margin-left: 0.1em;
     }
   }
 
