@@ -23,6 +23,8 @@ if (process.env.NODE_ENV === 'test') {
 app.set('views', path.resolve(__dirname, '../app'))
 app.set('view engine', 'html')
 
+app.use(api)
+
 // static assets
 app.use('/assets/img', express.static(path.resolve(__dirname, '../app/assets/img')))
 app.use('/assets/js', express.static(path.resolve(__dirname, '../app/assets/js')))
@@ -31,7 +33,6 @@ app.use('/favicon.png', express.static(path.resolve(__dirname, '../app/assets/im
 app.use('/fonts', express.static(path.resolve(__dirname, '../app/assets/fonts')))
 
 // use api
-app.use(api)
 
 // initialize server
 const server = app.listen(app.get('port'), () => {
