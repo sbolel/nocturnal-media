@@ -1,5 +1,4 @@
 .collection {
-
   &-images {
     padding: 0;
     > div {
@@ -57,6 +56,10 @@
 
   &-row {
     margin-bottom: 40px;
+    @include handheld {
+      margin-bottom: 70px;
+      margin-top: 30px;
+    }
   }
 
   &-subtitle {
@@ -69,11 +72,20 @@
     span:first-of-type {
       font-weight: 900;
     }
+    div:first-child {
+      @include handheld {
+        padding-left: 10px;
+        display: none;
+      }
+    }
   }
 
   &-title h1 {
     font-weight: 500;
     margin-bottom: 0;
     padding-left: 0;
+    @include handheld {
+      padding-left: 10px;
+    }
   }
 }

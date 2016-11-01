@@ -1,7 +1,8 @@
 'use strict'
 
 const src = [
-  'app.js'
+  'app.js',
+  'assets/js/form.js'
 ]
 
 const scripts = (() => {
@@ -21,6 +22,7 @@ module.exports = {
     './node_modules/jquery/dist/jquery.js',
     './node_modules/fancybox-plus/dist/jquery.fancybox-plus.js',
     './node_modules/jquery.backstretch/jquery.backstretch.js',
+    './app/assets/js/bootstrap-nav.js',
     './node_modules/angular/angular.js',
     './node_modules/angular-sanitize/angular-aria.js',
     './node_modules/angular-animate/angular-animate.js',

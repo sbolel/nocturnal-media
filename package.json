@@ -76,6 +76,7 @@
     "gulp-uglify": "2.0.0",
     "gulp-watch": "4.3.10",
     "gulp-webserver": "0.9.1",
+    "include-media": "^1.4.8",
     "istanbul": "0.4.5",
     "mocha": "3.1.2",
     "node-sass": "3.10.1",
