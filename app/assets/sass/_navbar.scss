@@ -13,6 +13,16 @@
   padding-top: 20px;
   z-index: 100;
 
+  @include handheld {
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.66) 98%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.66) 98%); /* IE10+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.66) 98%); /* Opera 11.10+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(98%,rgba(0,0,0,0.66))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.66) 98%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.66) 98%); /* W3C */
+    height: 65px;
+  }
+
   &-brand {
     padding: 0 !important;
 
@@ -30,7 +40,6 @@
   &-links {
     li {
       background: none !important;
-      text-align: center;
     }
 
     li a {
@@ -49,6 +58,23 @@
     li.active {
       background: none !important;
       color: #ffe400 !important;
+    }
+  }
+
+  &-collapse.collapsing,
+  &-collapse.collapse.in {
+    margin-left: -15px;
+    margin-right: -15px;
+    li {
+      padding: 4px 30px 4px 0;
+      font-size: 1.5em;
+    }
+    li.socials {
+      font-size: 1.75em;
+      margin-left: 2px;
+    }
+    .navbar-links {
+      text-align: right;
     }
   }
 

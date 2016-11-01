@@ -26,8 +26,8 @@
           <a href="https://twitter.com/nocturnal_media" target="_blank" title="Twitter"><i class="fa fa-twitter-square"></i></a>
         </span>
         <div id="page-title" ng-cloak class="valign">
-          <h1 ng-class="{'ng-hide':$root.currentState.data.title!='back'}" ng-bind="state.data.title" ui-sref="root.home" class="pointer"></h1>
-          <h1 ng-class="{'ng-hide':$root.currentState.data.title=='back'}">{{state.data.title}}</h1>
+          <h1 ng-class="{'ng-hide':$root.currentState.data.title!=='back'}" ng-bind="state.data.title" ui-sref="root.home" class="pointer"></h1>
+          <h1 ng-class="{'ng-hide':$root.currentState.data.title==='back'}">{{state.data.title}}</h1>
           <h2>{{state.data.subtitle}}</h2>
         </div>
       </div>
