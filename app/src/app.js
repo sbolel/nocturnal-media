@@ -48,7 +48,6 @@ window.angular.module('starterApp', [
 
 .run(function ($rootScope, $window) {
   $rootScope.PAGE_DATA = Object.assign({}, $window.__PAGE_DATA__)
-  console.debug($rootScope.PAGE_DATA)
   $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
     $rootScope.currentState = toState
   })
