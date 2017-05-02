@@ -154,9 +154,9 @@ window.angular.module('starterApp', [
 
   function checkCollapse(){
     if ($(this).width() < 768){
-      $('#collapse').removeClass('navbar').addClass('navbar-collapse').addClass('collapse')
+      $('#collapse').addClass('navbar-collapse').addClass('collapse')
     } else {
-      $('#collapse').removeClass('navbar-collapse').removeClass('collapse').addClass('navbar')
+      $('#collapse').removeClass('navbar-collapse').removeClass('collapse')
     }
   }
 })
