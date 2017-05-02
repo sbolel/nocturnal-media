@@ -146,4 +146,17 @@ window.angular.module('starterApp', [
   }
 
   $document.find('#slideshow').backstretch($scope.data.slideshow.images, { duration: 3000, fade: 750 })
+
+
+  $(window).bind("resize", checkCollapse)
+
+  checkCollapse()
+
+  function checkCollapse(){
+    if ($(this).width() < 768){
+      $('#collapse').removeClass('navbar').addClass('navbar-collapse').addClass('collapse')
+    } else {
+      $('#collapse').removeClass('navbar-collapse').removeClass('collapse').addClass('navbar')
+    }
+  }
 })
